@@ -1,13 +1,12 @@
-<<<<<<< HEAD
-
 # E-Cart: Mini Shopping App (MERN)
 
 A small full-stack shopping application with two sides: an **admin** who manages products and a **user** who shops and keeps a cart.
 Built as a college project with **React (Vite)**, **Node.js + Express** and **MongoDB**.
-
----
+Made for practical learning and exam preparation: UI development, API integration, CRUD operations and client-server communication.
 
 **Author:** Avnish Prajapati
+
+---
 
 ## 1. Project requirements and where they are done
 
@@ -117,7 +116,7 @@ Copy `.env.example` to `.env` and fill it in:
 | `EMAIL_USER`, `EMAIL_PASS`                    | Gmail address and Gmail **App Password** for OTP emails. If left empty, the OTP is printed in the backend terminal. |
 | `ADMIN_NAME`, `ADMIN_EMAIL`, `ADMIN_PASSWORD` | Used by the seed script                                                                                             |
 
-Create the first admin and sample products (run once):
+Create the first admin and 24 sample products (this also resets the products, so run it before you add your own):
 
 ```bash
 npm run seed
@@ -205,11 +204,17 @@ A user who opens `/admin` is sent back to the home page, and a visitor without l
 
 ## 8. Screenshots
 
-Add your screenshots here before submitting (login, admin products, shop, cart, Postman test).
+Screenshots of the login page, admin products, shop, cart and a Postman test are added here.
 
 ---
 
-## 9. Security notes
+## 9. Demo video
+
+[Watch the demo video](PASTE-YOUR-LINK-HERE)
+
+---
+
+## 10. Security notes
 
 - Passwords and OTPs are stored as bcrypt hashes, never as plain text.
 - Secrets are kept in `.env`, which is listed in `.gitignore`.
@@ -219,12 +224,6 @@ Add your screenshots here before submitting (login, admin products, shop, cart, 
 
 ---
 
-## 10. Possible improvements
+## 11. Possible improvements
 
-# Orders and checkout, payment, product image upload, refresh tokens, and automated tests.
-
-# ecart-system
-
-Developed a basic full-stack E-Commerce System with frontend and backend components as part of practical learning and exam preparation. Practiced UI development, API integration, CRUD operations, and client-server communication. Currently a work in progress.
-
-> > > > > > > bece0d3324970daafc66e4e2d1f0ea8b8ae72712
+Orders and checkout, payment, product image upload, refresh tokens, and automated tests.
